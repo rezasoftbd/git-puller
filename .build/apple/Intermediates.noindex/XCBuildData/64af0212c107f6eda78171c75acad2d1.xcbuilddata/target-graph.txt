@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'AllExcludingTests' in project 'Aggregate'
+➜ Explicit dependency on target 'GitPuller_-1626C5847EE1B55F_PackageProduct' in project 'GitPuller'
+Target 'GitPuller_-1626C5847EE1B55F_PackageProduct' in project 'GitPuller' (no dependencies)

@@ -1,0 +1,37 @@
+{
+  "": {
+    "dependencies": "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/GitPuller.d",
+    "object": "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/GitPuller.o",
+    "swift-dependencies": "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/primary.swiftdeps"
+  },
+  "/Users/Reza/PycharmProjects/Git Puller/Sources/GitPuller/AppModel.swift": {
+    "object": "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/AppModel.swift.o",
+    "swiftmodule": "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/AppModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/AppModel.swiftdeps",
+    "diagnostics": "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/AppModel.dia"
+  },
+  "/Users/Reza/PycharmProjects/Git Puller/Sources/GitPuller/ContentView.swift": {
+    "object": "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/ContentView.swift.o",
+    "swiftmodule": "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/ContentView.swiftdeps",
+    "diagnostics": "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/ContentView.dia"
+  },
+  "/Users/Reza/PycharmProjects/Git Puller/Sources/GitPuller/Git.swift": {
+    "object": "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/Git.swift.o",
+    "swiftmodule": "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/Git~partial.swiftmodule",
+    "swift-dependencies": "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/Git.swiftdeps",
+    "diagnostics": "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/Git.dia"
+  },
+  "/Users/Reza/PycharmProjects/Git Puller/Sources/GitPuller/GitPullerApp.swift": {
+    "object": "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/GitPullerApp.swift.o",
+    "swiftmodule": "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/GitPullerApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/GitPullerApp.swiftdeps",
+    "diagnostics": "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/GitPullerApp.dia"
+  },
+  "/Users/Reza/PycharmProjects/Git Puller/Sources/GitPuller/Models.swift": {
+    "object": "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/Models.swift.o",
+    "swiftmodule": "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/Models~partial.swiftmodule",
+    "swift-dependencies": "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/Models.swiftdeps",
+    "diagnostics": "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/Models.dia"
+  }
+}

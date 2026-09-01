@@ -1,0 +1,11 @@
+{
+  "/Users/Reza/PycharmProjects/Git Puller/Sources/GitPuller/AppModel.swift" : {
+    "abi-baseline-json" : "/Users/Reza/PycharmProjects/Git Puller/.build/apple/Intermediates.noindex/GitPuller.build/Release/GitPuller.build/Objects-normal/arm64/GitPuller.abi.json",
+    "const-values" : "/Users/Reza/PycharmProjects/Git Puller/.build/apple/Intermediates.noindex/GitPuller.build/Release/GitPuller.build/Objects-normal/arm64/GitPuller-primary.swiftconstvalues",
+    "dependencies" : "/Users/Reza/PycharmProjects/Git Puller/.build/apple/Intermediates.noindex/GitPuller.build/Release/GitPuller.build/Objects-normal/arm64/GitPuller-primary.d",
+    "diagnostics" : "/Users/Reza/PycharmProjects/Git Puller/.build/apple/Intermediates.noindex/GitPuller.build/Release/GitPuller.build/Objects-normal/arm64/GitPuller-primary.dia",
+    "swiftdoc" : "/Users/Reza/PycharmProjects/Git Puller/.build/apple/Intermediates.noindex/GitPuller.build/Release/GitPuller.build/Objects-normal/arm64/GitPuller.swiftdoc",
+    "swiftmodule" : "/Users/Reza/PycharmProjects/Git Puller/.build/apple/Intermediates.noindex/GitPuller.build/Release/GitPuller.build/Objects-normal/arm64/GitPuller.swiftmodule",
+    "swiftsourceinfo" : "/Users/Reza/PycharmProjects/Git Puller/.build/apple/Intermediates.noindex/GitPuller.build/Release/GitPuller.build/Objects-normal/arm64/GitPuller.swiftsourceinfo"
+  }
+}

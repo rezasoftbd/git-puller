@@ -1,0 +1,104 @@
+{
+  "source": "/Users/Reza/PycharmProjects/Git Puller/Sources/GitPuller/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Git Puller",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 28
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pulling…",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 45
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pull All",
+        "location": {
+          "startingColumn": 59,
+          "startingLine": 45
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reveal in Finder",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 70
+        }
+      },
+      {
+        "comment": "",
+        "key": "Copy Path",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 71
+        }
+      },
+      {
+        "comment": "",
+        "key": "Remove",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 76
+        }
+      },
+      {
+        "comment": "",
+        "key": "No repositories",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 92
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add a folder to start pulling.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 94
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Repository…",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 97
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld %@",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 120
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add repository",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 110
+        }
+      },
+      {
+        "comment": "",
+        "key": "Remove selected repository",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 115
+        }
+      }
+    ]
+  },
+  "version": 1
+}

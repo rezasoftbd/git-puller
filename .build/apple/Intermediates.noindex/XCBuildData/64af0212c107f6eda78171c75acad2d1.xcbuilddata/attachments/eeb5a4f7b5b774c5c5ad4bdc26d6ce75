@@ -1,0 +1,36 @@
+{
+  "" : {
+    "const-values" : "/Users/Reza/PycharmProjects/Git Puller/.build/apple/Intermediates.noindex/GitPuller.build/Release/GitPuller.build/Objects-normal/x86_64/GitPuller-primary.swiftconstvalues",
+    "dependencies" : "/Users/Reza/PycharmProjects/Git Puller/.build/apple/Intermediates.noindex/GitPuller.build/Release/GitPuller.build/Objects-normal/x86_64/GitPuller-primary.d",
+    "diagnostics" : "/Users/Reza/PycharmProjects/Git Puller/.build/apple/Intermediates.noindex/GitPuller.build/Release/GitPuller.build/Objects-normal/x86_64/GitPuller-primary.dia",
+    "emit-module-dependencies" : "/Users/Reza/PycharmProjects/Git Puller/.build/apple/Intermediates.noindex/GitPuller.build/Release/GitPuller.build/Objects-normal/x86_64/GitPuller-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/Reza/PycharmProjects/Git Puller/.build/apple/Intermediates.noindex/GitPuller.build/Release/GitPuller.build/Objects-normal/x86_64/GitPuller-primary-emit-module.dia",
+    "pch" : "/Users/Reza/PycharmProjects/Git Puller/.build/apple/Intermediates.noindex/GitPuller.build/Release/GitPuller.build/Objects-normal/x86_64/GitPuller-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/Reza/PycharmProjects/Git Puller/.build/apple/Intermediates.noindex/GitPuller.build/Release/GitPuller.build/Objects-normal/x86_64/GitPuller-primary.swiftdeps"
+  },
+  "/Users/Reza/PycharmProjects/Git Puller/Sources/GitPuller/AppModel.swift" : {
+    "index-unit-output-path" : "/GitPuller.build/Release/GitPuller.build/Objects-normal/x86_64/AppModel.o",
+    "llvm-bc" : "/Users/Reza/PycharmProjects/Git Puller/.build/apple/Intermediates.noindex/GitPuller.build/Release/GitPuller.build/Objects-normal/x86_64/AppModel.bc",
+    "object" : "/Users/Reza/PycharmProjects/Git Puller/.build/apple/Intermediates.noindex/GitPuller.build/Release/GitPuller.build/Objects-normal/x86_64/AppModel.o"
+  },
+  "/Users/Reza/PycharmProjects/Git Puller/Sources/GitPuller/ContentView.swift" : {
+    "index-unit-output-path" : "/GitPuller.build/Release/GitPuller.build/Objects-normal/x86_64/ContentView.o",
+    "llvm-bc" : "/Users/Reza/PycharmProjects/Git Puller/.build/apple/Intermediates.noindex/GitPuller.build/Release/GitPuller.build/Objects-normal/x86_64/ContentView.bc",
+    "object" : "/Users/Reza/PycharmProjects/Git Puller/.build/apple/Intermediates.noindex/GitPuller.build/Release/GitPuller.build/Objects-normal/x86_64/ContentView.o"
+  },
+  "/Users/Reza/PycharmProjects/Git Puller/Sources/GitPuller/Git.swift" : {
+    "index-unit-output-path" : "/GitPuller.build/Release/GitPuller.build/Objects-normal/x86_64/Git.o",
+    "llvm-bc" : "/Users/Reza/PycharmProjects/Git Puller/.build/apple/Intermediates.noindex/GitPuller.build/Release/GitPuller.build/Objects-normal/x86_64/Git.bc",
+    "object" : "/Users/Reza/PycharmProjects/Git Puller/.build/apple/Intermediates.noindex/GitPuller.build/Release/GitPuller.build/Objects-normal/x86_64/Git.o"
+  },
+  "/Users/Reza/PycharmProjects/Git Puller/Sources/GitPuller/GitPullerApp.swift" : {
+    "index-unit-output-path" : "/GitPuller.build/Release/GitPuller.build/Objects-normal/x86_64/GitPullerApp.o",
+    "llvm-bc" : "/Users/Reza/PycharmProjects/Git Puller/.build/apple/Intermediates.noindex/GitPuller.build/Release/GitPuller.build/Objects-normal/x86_64/GitPullerApp.bc",
+    "object" : "/Users/Reza/PycharmProjects/Git Puller/.build/apple/Intermediates.noindex/GitPuller.build/Release/GitPuller.build/Objects-normal/x86_64/GitPullerApp.o"
+  },
+  "/Users/Reza/PycharmProjects/Git Puller/Sources/GitPuller/Models.swift" : {
+    "index-unit-output-path" : "/GitPuller.build/Release/GitPuller.build/Objects-normal/x86_64/Models.o",
+    "llvm-bc" : "/Users/Reza/PycharmProjects/Git Puller/.build/apple/Intermediates.noindex/GitPuller.build/Release/GitPuller.build/Objects-normal/x86_64/Models.bc",
+    "object" : "/Users/Reza/PycharmProjects/Git Puller/.build/apple/Intermediates.noindex/GitPuller.build/Release/GitPuller.build/Objects-normal/x86_64/Models.o"
+  }
+}

@@ -1,0 +1,66 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "GitPuller-arm64-apple-macosx-release.exe": ["<GitPuller-arm64-apple-macosx-release.exe>"]
+  "GitPuller-arm64-apple-macosx-release.module": ["<GitPuller-arm64-apple-macosx-release.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<GitPuller-arm64-apple-macosx-release.exe>","<GitPuller-arm64-apple-macosx-release.module>"]
+  "test": ["<GitPuller-arm64-apple-macosx-release.exe>","<GitPuller-arm64-apple-macosx-release.module>"]
+default: "main"
+nodes:
+  "/Users/Reza/PycharmProjects/Git Puller/Sources/GitPuller/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/Reza/PycharmProjects/Git Puller/Sources/GitPuller/AppModel.swift","/Users/Reza/PycharmProjects/Git Puller/Sources/GitPuller/ContentView.swift","/Users/Reza/PycharmProjects/Git Puller/Sources/GitPuller/Git.swift","/Users/Reza/PycharmProjects/Git Puller/Sources/GitPuller/GitPullerApp.swift","/Users/Reza/PycharmProjects/Git Puller/Sources/GitPuller/Models.swift"]
+    outputs: ["/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/sources"]
+    description: "Write auxiliary file /Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/sources"
+
+  "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/AppModel.swift.o","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/ContentView.swift.o","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/Git.swift.o","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/GitPullerApp.swift.o","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/Models.swift.o"]
+    outputs: ["/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.product/Objects.LinkFileList"
+
+  "/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+
+  "<GitPuller-arm64-apple-macosx-release.exe>":
+    tool: phony
+    inputs: ["/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller"]
+    outputs: ["<GitPuller-arm64-apple-macosx-release.exe>"]
+
+  "<GitPuller-arm64-apple-macosx-release.module>":
+    tool: phony
+    inputs: ["/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/AppModel.swift.o","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/ContentView.swift.o","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/Git.swift.o","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/GitPullerApp.swift.o","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/Models.swift.o","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/Modules/GitPuller.swiftmodule"]
+    outputs: ["<GitPuller-arm64-apple-macosx-release.module>"]
+
+  "C.GitPuller-arm64-apple-macosx-release.exe":
+    tool: shell
+    inputs: ["/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/AppModel.swift.o","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/ContentView.swift.o","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/Git.swift.o","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/GitPullerApp.swift.o","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/Models.swift.o","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.product/Objects.LinkFileList"]
+    outputs: ["/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller"]
+    description: "Linking ./.build/arm64-apple-macosx/release/GitPuller"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-L","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release","-o","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller","-module-name","GitPuller","-Xlinker","-no_warn_duplicate_libraries","-emit-executable","-Xlinker","-dead_strip","-Xlinker","-alias","-Xlinker","_GitPuller_main","-Xlinker","_main","-Xlinker","-rpath","-Xlinker","@loader_path","@/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-6.2/macosx","-target","arm64-apple-macosx13.0","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g"]
+
+  "C.GitPuller-arm64-apple-macosx-release.module":
+    tool: shell
+    inputs: ["/Users/Reza/PycharmProjects/Git Puller/Sources/GitPuller/AppModel.swift","/Users/Reza/PycharmProjects/Git Puller/Sources/GitPuller/ContentView.swift","/Users/Reza/PycharmProjects/Git Puller/Sources/GitPuller/Git.swift","/Users/Reza/PycharmProjects/Git Puller/Sources/GitPuller/GitPullerApp.swift","/Users/Reza/PycharmProjects/Git Puller/Sources/GitPuller/Models.swift","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/sources"]
+    outputs: ["/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/AppModel.swift.o","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/ContentView.swift.o","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/Git.swift.o","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/GitPullerApp.swift.o","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/Models.swift.o","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/Modules/GitPuller.swiftmodule"]
+    description: "Compiling Swift Module 'GitPuller' (5 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","GitPuller","-emit-dependencies","-emit-module","-emit-module-path","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/Modules/GitPuller.swiftmodule","-output-file-map","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/output-file-map.json","-whole-module-optimization","-num-threads","10","-c","@/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/GitPuller.build/sources","-I","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/Modules","-target","arm64-apple-macosx13.0","-whole-module-optimization","-num-threads","10","-serialize-diagnostics","-O","-j10","-DSWIFT_PACKAGE","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Users/Reza/PycharmProjects/Git Puller/.build/arm64-apple-macosx/release/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","GitPuller_main","-swift-version","5","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","git_puller"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/Reza/PycharmProjects/Git Puller/Sources/GitPuller/","/Users/Reza/PycharmProjects/Git Puller/Package.swift","/Users/Reza/PycharmProjects/Git Puller/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+
